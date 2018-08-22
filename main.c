@@ -1,9 +1,3 @@
-/**
-*   Dawid Sowa
-*   sowa@dawidsowa.pl
-*   
-*   Game of Life  
-**/
 #include <stdlib.h>
 #include <time.h>
 #include <pointStruct.h>
@@ -11,6 +5,9 @@
 
 int X_DIM = 50;
 int Y_DIM = 50;
+/**
+* Rules of making alive.
+**/
 int makeAlive[9] = {0,0,0,1,0,0,0,0,0};
 int makeDead[9] = {1,1,0,0,1,1,1,1,1};
 int IT = 1000;
